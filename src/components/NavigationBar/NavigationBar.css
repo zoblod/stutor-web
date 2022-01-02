@@ -1,0 +1,30 @@
+.Navigation-Bar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #292828;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.Navigation-Bar-Image{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.Navigation-Bar-Link-Group{
+    padding-right: 50px;
+}
+
+.Navigation-Bar-Link{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    font-weight: 300;
+}

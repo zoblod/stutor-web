@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: #292828;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.copyright{
+    color: white;
+}
