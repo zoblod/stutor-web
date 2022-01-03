@@ -19,7 +19,7 @@ class Home extends React.Component{
                         
                     </div>
                     <div className='container-2'>
-                        <img src={FirstImage} className='container-2-img' alt='demonstration'></img>
+                        <img src={FirstImage} className='container-1-img' alt='demonstration'></img>
                     </div>
                 </div>
                 
@@ -28,7 +28,7 @@ class Home extends React.Component{
                         <img src={SecondImage} className='container-2-img' alt='demonstration'></img>
                     </div>
                     <div className='container-2-group-2'>
-                        <h1 className='title'> Coming Soon </h1>
+                        <h1 className='title'> Coming Soon To Your University</h1>
                         <h2 className='sub-title'> Early 2022 </h2>
                     </div>
                 </div>
