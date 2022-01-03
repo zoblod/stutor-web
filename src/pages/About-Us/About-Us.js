@@ -5,11 +5,11 @@ class AboutUs extends React.Component{
     render(){
         return(
             <div className='body'>
-                <div className="title">
+                <div className='title'>
                     <h1> About Us </h1>
                 </div>
-                <div className="statement">
-                    <p>
+                <div className='statement'>
+                    <p className='statement-body'>
                         Stutor is a platform where 
                     </p>
                 </div>

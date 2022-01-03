@@ -14,3 +14,26 @@
     align-items: flex-start;
     width: 90vw;
 }
+
+.statement{
+    display: flex;
+    align-items: flex-start;
+    width: 90vw;
+}
+
+.statement-body{
+    width: 400px;
+}
+
+.personel-container{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personel-img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
