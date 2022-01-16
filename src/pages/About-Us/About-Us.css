@@ -22,7 +22,8 @@
 }
 
 .statement-body{
-    width: 400px;
+    width: 60vw;
+    font-size: 2em;
 }
 
 .personel-container{
@@ -36,4 +37,37 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
+}
+
+@media screen and (max-width: 750px){
+    .title{
+        font-size: 20px;
+        display: flex;
+        align-items: flex-start;
+        width: 90vw;
+    }
+    
+    .statement{
+        display: flex;
+        align-items: flex-start;
+        width: 90vw;
+    }
+    
+    .statement-body{
+        width: 100vw;
+        font-size: 2em;
+    }
+    
+    .personel-container{
+        display: flex;
+        width: 90vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .personel-img{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
 }
