@@ -6,7 +6,7 @@ class AboutUs extends React.Component{
         return(
             <div className='body'>
                 <div className='title'>
-                    <h1> About Us </h1>
+                    <h1> About Stutor </h1>
                 </div>
                 <div className='statement'>
                     <p className='statement-body'>
@@ -16,6 +16,10 @@ class AboutUs extends React.Component{
                         As a student, you get the help you need, as a stutor, you make a living wage in your spare time. It’s a true win-win. 
                         Stay tuned as Stutor comes to your university! 
                     </p>
+                    
+                </div>
+                <div className='action-button-container'>
+                    <a className='action-button' href='mailto:admin@stutor.com'> Contact Us </a>
                 </div>
             </div>
             

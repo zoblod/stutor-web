@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(/src/fonts/Poppins-Regular.ttf);
+}
 .Navigation-Bar{
     display: flex;
     height: 50px;
@@ -9,13 +14,15 @@
     top: 0;
     left: 0;
     z-index: 999;
+    font-family: Poppins;
 }
 
-.Navigation-Bar-Image{
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
     width: 40px;
-    height: 40px;
-    padding-top: 5px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .Navigation-Bar-Link-Group{

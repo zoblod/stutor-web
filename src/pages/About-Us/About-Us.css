@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(/src/fonts/Poppins-Regular.ttf);
+}
 .body{
     margin-top: 50px;
     height: 100%;
@@ -6,6 +10,7 @@
     align-items: center;
     overflow: hidden;
     margin-bottom: 50px;
+    font-family: Poppins;
 }
 
 .title{
@@ -38,7 +43,28 @@
     height: 200px;
     width: 200px;
 }
-
+.action-button-container{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #DB4B6D;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 80px 2px;
+    border: none;
+    width: 150px;
+    border-radius: 15px
+}
+.action-button{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
 @media screen and (max-width: 750px){
     .title{
         font-size: 20px;
