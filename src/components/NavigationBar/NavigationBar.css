@@ -37,11 +37,21 @@
 }
 
 @media screen and (max-width: 750px){
+    .logo{
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        width: 40px;
+        padding-left: 25px;
+    }
+    .Navigation-Bar-Link-Group{
+        padding-right: 25px;
+    }
     .Navigation-Bar-Link{
         font-size: 15px;
         text-decoration: none;
         color: white;
-        padding-left: 30px;
+        padding-left: 20px;
         font-weight: 300;
     }
 }
